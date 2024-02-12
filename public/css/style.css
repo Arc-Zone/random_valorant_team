@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 1em;
+    color:#ff4655;
+}
+.navBar {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    
+}
+.navBar li {
+    list-style: none;
+}
+.navBar li:nth-child(2){
+    margin: 0 5em;
+}
+.navBar a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #111827;
+}
+.navBar a:hover{
+    color:#ff4655
+}
+.center-section{
+    height: 300px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5em;
+}
+.center-section h2 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1em;
+}
+.contain-img{
+    margin-bottom: 2em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 50%;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 2em;
+}
+.contain-img img {
+    padding: 1em;
+}
+.waypont-name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+    margin-bottom: 3em;
+    border-bottom:1px solid black ;
+    width: 10%;
+    margin: auto;
+    margin-bottom: 3em;
+
+}
+.message {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
+}
+/* CSS */
+.button-40 {
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .75rem 1.2rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color,border-color,color,fill,stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    margin-bottom: 1em;
+}
+
+.button-40:hover {
+  background-color: #374151;
+}
+
+.button-40:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-40 {
+    padding: .75rem 1.5rem;
+  }
+}
