@@ -43,7 +43,16 @@ h1{
     font-family: 'Roboto', sans-serif;
     margin-bottom: 1em;
 }
-.contain-img{
+.contain-img {
+    margin-bottom: 2em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 50%;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 2em;
+    display: flex;
+}
+.contain-img-2{
     margin-bottom: 2em;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     width: 100%;
@@ -54,7 +63,8 @@ h1{
 }
 .contain-img img {
     padding: 1em;
-    width: 100%;
+    margin: auto;
+   
 }
 .waypont-name{
     font-family: 'Roboto', sans-serif;
