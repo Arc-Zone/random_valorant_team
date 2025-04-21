@@ -3,7 +3,7 @@ let randomImg = document.getElementById('random-img')
 
 btn.addEventListener('click' , function(){
     randomImg.innerHTML = ""
-    let randomIndex = Math.floor(Math.random() * 19) + 1;  
+    let randomIndex = Math.floor(Math.random() * 25) + 1;  
 
     let agentImg = document.createElement('img')
 

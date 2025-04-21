@@ -4,14 +4,14 @@ let agentName = document.getElementById('agent-name')
 
 btn.addEventListener('click' , function (){
     randomImg.innerHTML = ""
-    agentName.innerHTML = ""
+     agentName.innerHTML = ""
     usedIndices = []; // Réinitialiser le tableau des indices utilis
     for( let i = 0 ; i < 5 ; i++){
         let randomIndex;
         let nameAgent;
              // Générer un indice unique
             do {
-                randomIndex = Math.floor(Math.random() * 19) + 1;
+                randomIndex = Math.floor(Math.random() * 25) + 1;
             } while (usedIndices.includes(randomIndex));
     
         switch (randomIndex){
@@ -83,6 +83,12 @@ btn.addEventListener('click' , function (){
             break ;
             case  23 : 
             nameAgent = "Sage"
+            break ;
+            case  24 : 
+            nameAgent = "Tejo"
+            break ;
+            case  25 : 
+            nameAgent = "Walay"
             break ;
         }
 
