@@ -4,7 +4,9 @@
     box-sizing: border-box;
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 }
-
+body{
+    background-color: #FFFFFF;
+}
 h1{
     font-family: 'Roboto', sans-serif;
     text-align: center;
